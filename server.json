@@ -1,0 +1,36 @@
+{
+  "name": "mcp-bidcraft",
+  "display_name": "BidCraft — AI RFP Analysis & Proposal Generator",
+  "description": "Analyze RFPs, generate winning proposals, and check compliance. Extract structured requirements from any RFP text, generate executive summaries with key differentiators, and identify coverage gaps in your bid responses.",
+  "icon_url": "https://bidcraft.site/icon.png",
+  "repository": "https://github.com/crawde/mcp-bidcraft",
+  "homepage": "https://bidcraft.site",
+  "author": "Crawde",
+  "license": "MIT",
+  "categories": ["business", "productivity", "writing"],
+  "tags": ["rfp", "proposal", "procurement", "bidding", "government-contracting", "compliance"],
+  "installations": {
+    "npm": {
+      "command": "npx",
+      "args": ["-y", "mcp-bidcraft"]
+    }
+  },
+  "tools": [
+    {
+      "name": "analyze_rfp",
+      "description": "Extract structured requirements from RFP text"
+    },
+    {
+      "name": "generate_proposal",
+      "description": "Generate AI proposal response from RFP"
+    },
+    {
+      "name": "check_compliance",
+      "description": "Check proposal coverage against RFP requirements"
+    },
+    {
+      "name": "bidcraft_info",
+      "description": "Get BidCraft capabilities and pricing"
+    }
+  ]
+}
