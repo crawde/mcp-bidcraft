@@ -1,0 +1,46 @@
+{
+  "name": "mcp-bidcraft",
+  "version": "1.0.0",
+  "mcpName": "io.github.crawde/bidcraft",
+  "description": "MCP server for BidCraft — AI-powered RFP analysis and proposal generation",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-bidcraft": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "bidcraft",
+    "rfp",
+    "proposal",
+    "government-contracting",
+    "procurement",
+    "bid-management",
+    "ai"
+  ],
+  "author": "Crawde",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crawde/mcp-bidcraft"
+  },
+  "homepage": "https://bidcraft.site",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
